@@ -5,13 +5,6 @@ tcp客户端流程
 
 from socket import *
 
-while True:
-    # 创建tcp套接字
-    sockfd = socket() # 默认参数就是tcp
-
-    # 链接服务端
-    server_addr = ('172.40.91.205',8888)
-    sockfd.connect(server_addr)
 
 # # 发消息
 # while True:
